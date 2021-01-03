@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+.container {
+  margin-top: 60px;
+}
+.heading {
+  text-align: center;
+  letter-spacing: 2px;
+}
+.search {
+  text-align: center;
+}
+.search button {
+  height: 42px;
+  width: 10%;
+  border-style: none;
+  outline: none;
+  border-radius: 12px;
+  background-color: red;
+  cursor: pointer;
+  padding: 4px;
+}
+.search button:hover {
+  background-color: coral;
+}
+.search input {
+  width: 70%;
+  height: 40px;
+  border-radius: 12px;
+  outline: none;
+  border-style: none;
+  font-size: 1.3rem;
+  color: coral;
+  padding: 20px;
+}
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 87%;
+  margin: 50px 40px;
+  justify-content: center;
+  align-items: center;
+}
+.movie-card {
+  height: 25rem;
+  width: 14rem;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+.movie-card img {
+  height: 17rem;
+  width: 12rem;
+  background-color: #fff;
+}
+.movie-card button {
+  margin-top: 10px;
+  text-align: center;
+  width: 90px;
+  height: 30px;
+  background-color: blue;
+  padding: 4px;
+  outline: none;
+  border-style: none;
+  border: 2px solid blue;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.movie-card button:hover {
+  background-color: cornflowerblue;
+  outline: none;
+  border-style: none;
+}
+.movie-card p {
+  text-align: center;
+  width: 87%;
+  height: 10px;
+  padding: 8px;
+}
+@media (max-width: 468px) {
+  .search input {
+    width: 40%;
+    font-size: 1rem;
+    padding: 12px;
+  }
+  .search button {
+    width: 12%;
+    padding: 12px;
+  }
+}
